@@ -138,7 +138,7 @@ STM32 펌웨어 제어와 직접 설계한 기구부를 결합하여 실제 동�
 
 ## 5. 🤖 CDP Bedside SleepTech Robot Arm
 
-> **Status : In Progress**
+> **창의적 종합설계 경진대회 (CDP, Capstone Design Project) · Status : In Progress**
 
 - **분야** : Robotics / Embedded System / Edge Computing
 - **역할** : Embedded, Hardware Control, 3D Printing, Edge Computing
