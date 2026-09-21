@@ -136,13 +136,21 @@ STM32 펌웨어 제어와 직접 설계한 기구부를 결합하여 실제 동�
 
 # 🚧 Projects in Progress
 
-## 5. 🤖 CDP Robot Arm
+## 5. 🤖 CDP Bedside SleepTech Robot Arm
 
 > **Status : In Progress**
 
-로봇팔을 주제로 진행 중인 CDP 프로젝트입니다.
+- **분야** : Robotics / Embedded System / Edge Computing
+- **역할** : Embedded, Hardware Control, 3D Printing, Edge Computing
+- **주요 개발 내용**
+  - 얼굴 방향에 따라 위치를 조절하는 스마트폰 거치 로봇팔
+  - 비접촉 비전 기반 수면 상태 분석
+  - 단계적 물리 자극을 이용한 저소음 기상 기능
+  - 수면 상태 기반 조명 제어 및 주변 물품 전달 기능
+  - Jetson Orin Nano Super 기반 엣지컴퓨팅 환경 구성
+  - 그리퍼 재설계 및 로봇팔 구동계 업그레이드 진행
 
-현재 로봇팔 제어와 Teleoperation 관련 기능을 개발하고 있으며, 데이터 기록 및 재생을 포함한 프로젝트 기능을 확장하고 있습니다.
+침대 옆 환경에서 사용자의 수면 상태와 위치를 인식하고, 로봇팔을 이용해 스마트폰 거치·기상 보조·주변 물품 전달 등의 상호작용 기능을 제공하는 **Bedside SleepTech 시스템**을 개발하고 있습니다.
 
 - [Project Repository](https://github.com/hjus36/cdp)
 
