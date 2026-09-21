@@ -118,18 +118,28 @@ IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성�
 
 > **대학 교과목 PCB 설계 프로젝트**
 
-- **분야** : Embedded Hardware / PCB
+- **분야** : Embedded Hardware / PCB Design
 - **MCU** : STM32H743VIT6, ATmega128
+- **Tool** : Altium Designer
 - **주요 경험**
-  - Schematic 설계
-  - PCB Layout 및 Routing
-  - 전원 및 신호선 설계
-  - ERC / DRC 검증
-  - 3D PCB Model 검토
+  - 데이터시트 기반 Schematic 및 Symbol / Footprint 구성
+  - ATmega128 TQFP64, STM32H743 LQFP100 등 주요 Footprint 제작
+  - Top / Bottom Layer를 활용한 2-layer PCB Layout 및 Routing
+  - 신호선 및 전원선 폭을 구분한 배선 설계
+  - GND Polygon 및 GND Via를 활용한 접지 연결성 개선
+  - SWD, USB-C 전원, BOOT0 / RESET / User Switch 회로 구성
+  - 실제 부품 규격과 기구 체결을 고려한 Footprint 및 Mounting Hole 수정
+  - DRC 검증을 통해 최종 Rule Violation 0 확인
+  - 3D PCB Model 및 기구물 장착 가능성 검토
 
-STM32H743 및 ATmega128을 기반으로 회로도 작성부터 PCB 배치·배선, 설계 검증까지 PCB 설계 전 과정을 수행했습니다.
+ATmega128과 STM32H743 기반 보드를 대상으로 회로도 작성부터 부품 라이브러리 제작, 배치·배선, GND Polygon, DRC 검증, 3D 검토까지 PCB 설계 전 과정을 수행했습니다.
+
+특히 STM32H743 보드는 설계 과정에서 SWD 및 전원 연결을 보완하고, Bottom Layer 활용, 실제 부품 규격 반영, 2.7 mm 고정 홀 및 GND Via 추가 등을 통해 반복적으로 설계를 개선했습니다.
+
+- [Project Repository](https://github.com/hjus36/mcu-pcb-design)
 
 <br />
+
 
 # 🚧 Projects in Progress
 
