@@ -14,25 +14,27 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 
 <br />
 
-# 🛠 Tech Stack
+# 🛠 Technical Skills
+
+### Embedded System & Hardware
+- **MCU** : STM32H743, ATmega128, Arduino
+- **Firmware** : C, STM32 HAL, STM32CubeMX
+- **Interface & Control** : GPIO, Timer/PWM, UART, Sensor & Actuator Control
+- **Hardware Design** : Schematic Design, PCB Layout & Routing, ERC/DRC Verification
 
 ### Backend
-- Java, Spring Boot, Spring Data JPA, Spring Security
-- REST API, MySQL
+- **Language** : Java 17
+- **Framework** : Spring Boot 3, Spring Data JPA, Spring Security
+- **Database** : MySQL
+- **Development** : REST API, JWT Authentication, Gradle
+- **Integration** : External API Integration, Mail Service, AI API Integration
 
-### AI / Data
-- Python, Pandas
-- Machine Learning, Data Analysis
-- OpenCV
-
-### Embedded
-- C
-- STM32, Arduino
-- GPIO, PWM, Timer
-
-### Hardware
-- STM32H743, ATmega128
-- PCB Design
+### AI / Data Analysis
+- **Language** : Python
+- **Data Processing** : Pandas, NumPy
+- **Machine Learning** : scikit-learn, Prophet
+- **Computer Vision** : OpenCV
+- **Experience** : Time-series Forecasting, Anomaly Detection, Image Processing
 
 <br />
 
