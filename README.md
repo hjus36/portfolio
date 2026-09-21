@@ -59,26 +59,25 @@ AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분�
 
 - [Back-end Repository](https://github.com/LIkeLion-Infinite-Loop/backend)
 - [Front-end Repository](https://github.com/LIkeLion-Infinite-Loop/frontend)
-- [시현 영상](https://www.youtube.com/shorts/zPq4j5eChCY)
+- [시연 영상](https://www.youtube.com/shorts/zPq4j5eChCY)
 
 <br />
 
 ---
 
-## 2. 📊 다이나모미터 센서 데이터 분석 및 이상 예측
+## 2. 📊 다이나모미터 센서 데이터 분석 및 이상 탐지
 
 > **인턴십 프로젝트**
 
 - **분야** : Data Analysis / Machine Learning
 - **기술** : Python, Pandas, Prophet
-- **주요 경험**
-  - 센서 데이터 전처리 및 시간축 정리
-  - RPM, Torque, Temperature, Pressure, Vibration 등 센서 데이터 분석
-  - 센서 간 관계 및 상관 분석
-  - Prophet 기반 단변량 / 다변량 예측
-  - 예측 결과를 활용한 이상치 탐지
+- **주요 수행**
+  - 다중 센서 데이터 전처리 및 연속 시간축 구성
+  - RPM, Torque, Temperature, Pressure, Vibration 관계 및 상관 분석
+  - Prophet 기반 단변량 / 다변량 시계열 예측
+  - 진동 데이터 기반 이상치 탐지 및 이벤트 구간 시각화
 
-다이나모미터에서 수집된 센서 데이터를 분석하고, 시계열 예측 모델을 이용하여 상태 변화와 이상 징후를 확인하는 과정을 수행했습니다.
+다이나모미터에서 수집된 다중 센서 데이터를 전처리하고 센서 간 관계를 분석한 뒤, Prophet 기반 시계열 예측과 진동 데이터 이상치 탐지를 수행했습니다.
 
 - [Project Repository](https://github.com/hjus36/dynamometer-prophet)
 
@@ -93,16 +92,14 @@ AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분�
 - **분야** : Embedded System / Mechanical Design
 - **MCU** : STM32H743VIT6
 - **기술** : C, STM32 HAL, STM32CubeMX, GPIO, Timer/PWM
-- **Hardware** : IR Sensor, MG995 Servo Motor
-- **Design** : 3D CAD Modeling, Gear & Rack Mechanism, 3D Printing
-- **주요 경험**
+- **하드웨어** : IR Sensor, MG995 Servo Motor
+- **설계** : 3D CAD Modeling, Gear & Rack Mechanism, 3D Printing
+- **주요 구현**
   - IR 센서를 이용한 손 감지
-  - TIM3 PWM 기반 Servo Motor 제어
-  - 손 감지 시 세정제 1회 자동 분사 및 복귀 동작 구현
-  - 손이 계속 감지되는 동안 반복 분사를 방지하는 제어 로직 구현
-  - 세정제 용기에 장착 가능한 기어·랙 기반 기구부 설계
-  - 기구부 3D 모델링 및 3D 프린팅
-  - 실제 하드웨어 조립 후 동작 검증
+  - TIM3 PWM 기반 MG995 Servo Motor 제어
+  - 1회 자동 분사·복귀 및 반복 분사 방지 로직 구현
+  - 기어·랙 기반 기구부 3D CAD 설계 및 3D 프린팅
+  - 하드웨어 조립 후 실제 동작 검증
 
 IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성하여 서보모터와 기어·랙 구조를 구동하고, 세정제를 자동으로 누른 뒤 원위치로 복귀하도록 구현했습니다.
 
@@ -120,17 +117,14 @@ IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성�
 
 - **분야** : Embedded Hardware / PCB Design
 - **MCU** : STM32H743VIT6, ATmega128
-- **Tool** : Altium Designer
-- **주요 경험**
+- **도구** : Altium Designer
+- **주요 수행**
   - 데이터시트 기반 Schematic 및 Symbol / Footprint 구성
   - ATmega128 TQFP64, STM32H743 LQFP100 등 주요 Footprint 제작
   - Top / Bottom Layer를 활용한 2-layer PCB Layout 및 Routing
-  - 신호선 및 전원선 폭을 구분한 배선 설계
-  - GND Polygon 및 GND Via를 활용한 접지 연결성 개선
-  - SWD, USB-C 전원, BOOT0 / RESET / User Switch 회로 구성
-  - 실제 부품 규격과 기구 체결을 고려한 Footprint 및 Mounting Hole 수정
-  - DRC 검증을 통해 최종 Rule Violation 0 확인
-  - 3D PCB Model 및 기구물 장착 가능성 검토
+  - 전원선 폭 구분, GND Polygon / GND Via를 활용한 전원·접지 설계
+  - 실제 부품 규격 및 기구 체결을 고려한 Footprint / Mounting Hole 수정
+  - DRC 검증 및 3D PCB Model 기반 기구물 적용 검토
 
 ATmega128과 STM32H743 기반 보드를 대상으로 회로도 작성부터 부품 라이브러리 제작, 배치·배선, GND Polygon, DRC 검증, 3D 검토까지 PCB 설계 전 과정을 수행했습니다.
 
