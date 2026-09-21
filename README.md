@@ -6,11 +6,11 @@
 
 # 👋 Intro
 
-안녕하세요. 컴퓨터공학을 전공하며 **Embedded System, Backend, AI/Data Analysis** 분야를 공부하고 있는 이강민입니다.
+안녕하세요. 컴퓨터공학을 전공하며 **Embedded System & Hardware**를 중심으로 **Backend, AI/Data Analysis** 분야의 프로젝트 경험을 쌓고 있는 이강민입니다.
 
-STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot 기반 웹 백엔드 개발과 센서 데이터 분석 및 예측 모델 구현까지 다양한 프로젝트를 경험하고 있습니다.
+STM32 기반 펌웨어 제어와 PCB 설계, 3D 기구 설계를 중심으로 하드웨어와 소프트웨어를 직접 연결해 구현해왔으며, Spring Boot 기반 백엔드 개발과 센서 데이터 분석·예측 프로젝트도 수행했습니다.
 
-프로젝트에서 실제 문제를 분석하고, 소프트웨어와 하드웨어를 활용하여 해결 방법을 설계하고 구현하는 과정을 중요하게 생각합니다.
+프로젝트에서 문제를 분석하고, 필요한 기술을 선택해 실제 동작 가능한 결과물로 구현하는 과정을 중요하게 생각합니다.
 
 <br />
 
@@ -18,9 +18,10 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 
 ### Embedded System & Hardware
 - **MCU** : STM32H743, ATmega128, Arduino
-- **Firmware** : C, STM32 HAL, STM32CubeMX
+- **Firmware** : C, STM32 HAL
 - **Interface & Control** : GPIO, Timer/PWM, UART, Sensor & Actuator Control
 - **Hardware Design** : Schematic Design, PCB Layout & Routing, ERC/DRC Verification
+- **Mechanical Design** : 3D CAD Modeling, 3D Printing
 
 ### Backend
 - **Language** : Java
@@ -35,6 +36,12 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 - **Machine Learning** : scikit-learn, Prophet
 - **Computer Vision** : OpenCV
 - **Experience** : Time-series Forecasting, Anomaly Detection, Image Processing
+
+### Tools
+- **Embedded** : STM32CubeMX, STM32CubeIDE
+- **PCB / EDA** : Altium Designer
+- **3D CAD** : SOLIDWORKS
+- **Version Control** : Git, GitHub
 
 <br />
 
