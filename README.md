@@ -177,4 +177,5 @@ STM32 펌웨어 제어와 직접 설계한 기구부를 결합하여 실제 동�
 
 # 📞 Contact
 
-- GitHub : [hjus36](https://github.com/hjus36)
+- **이메일** : [hjus36@naver.com](mailto:hjus36@naver.com)
+- **GitHub** : [![GitHub](https://img.shields.io/badge/GitHub-hjus36-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hjus36)
