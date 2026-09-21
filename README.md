@@ -86,21 +86,29 @@ AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분�
 
 ---
 
-## 3. 🧴 STM32 자동 손세정제
+## 3. 🧴 STM32 기반 자동 손세정제
 
-> **대학 교과목 프로젝트**
+> **대학 교과목 임베디드 시스템 프로젝트**
 
-- **분야** : Embedded System
+- **분야** : Embedded System / Mechanical Design
 - **MCU** : STM32H743VIT6
-- **기술** : C, STM32CubeMX, GPIO, PWM, Timer
-- **Hardware** : IR Sensor, Servo Motor
+- **기술** : C, STM32 HAL, STM32CubeMX, GPIO, Timer/PWM
+- **Hardware** : IR Sensor, MG995 Servo Motor
+- **Design** : 3D CAD Modeling, Gear & Rack Mechanism, 3D Printing
 - **주요 경험**
-  - STM32 GPIO 및 Timer 설정
-  - IR 센서 입력 처리
-  - PWM 기반 Servo Motor 제어
-  - 센서 감지에 따른 자동 동작 로직 구현
+  - IR 센서를 이용한 손 감지
+  - TIM3 PWM 기반 Servo Motor 제어
+  - 손 감지 시 세정제 1회 자동 분사 및 복귀 동작 구현
+  - 손이 계속 감지되는 동안 반복 분사를 방지하는 제어 로직 구현
+  - 세정제 용기에 장착 가능한 기어·랙 기반 기구부 설계
+  - 기구부 3D 모델링 및 3D 프린팅
+  - 실제 하드웨어 조립 후 동작 검증
 
-IR 센서로 사용자의 손을 감지하고 STM32의 PWM 신호로 서보모터를 제어하여 손세정제를 자동으로 배출하는 시스템을 구현했습니다.
+IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성하여 서보모터와 기어·랙 구조를 구동하고, 세정제를 자동으로 누른 뒤 원위치로 복귀하도록 구현했습니다.
+
+펌웨어뿐 아니라 실제 세정제 용기에 장착할 수 있는 기구부를 직접 설계하고 3D 프린팅하여 임베디드 제어와 기구 설계를 결합한 시스템을 제작했습니다.
+
+- [Project Repository](https://github.com/hjus36/stm32-auto-hand-sanitizer)
 
 <br />
 
