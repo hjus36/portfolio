@@ -46,16 +46,13 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 
 - **역할** : Backend
 - **기술** : Java, Spring Boot 3, Spring Data JPA, Spring Security, MySQL
-- **주요 경험**
-  - Spring Boot 기반 REST API 설계 및 구현
-  - 사용자 / 마이페이지 기능 개발
-  - 포인트 적립 및 사용 기능 구현
-  - GPT 기반 분리배출 퀴즈 생성 및 제출 기능 구현
-  - 문의 및 비밀번호 재설정 메일 기능 구현
-  - 외부 AI API 연동
-  - 영수증 OCR 인식 기능 구현
+- **주요 구현**
+  - Spring Boot 기반 REST API 및 사용자 / 마이페이지 기능
+  - 포인트 적립·사용 및 GPT 기반 분리배출 퀴즈
+  - 문의 및 비밀번호 재설정 메일 기능
+  - 외부 AI API 연동 및 영수증 OCR 인식 기능
 
-AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분리배출 방법을 확인할 수 있도록 지원하는 서비스입니다.
+AI 이미지 인식과 검색 기능을 활용해 사용자가 올바른 분리배출 방법을 확인할 수 있도록 지원하는 서비스입니다.
 
 - [Back-end Repository](https://github.com/LIkeLion-Infinite-Loop/backend)
 - [Front-end Repository](https://github.com/LIkeLion-Infinite-Loop/frontend)
@@ -70,14 +67,14 @@ AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분�
 > **인턴십 프로젝트**
 
 - **분야** : Data Analysis / Machine Learning
-- **기술** : Python, Pandas, Prophet
+- **기술** : Python, Pandas, NumPy, Prophet
 - **주요 수행**
   - 다중 센서 데이터 전처리 및 연속 시간축 구성
   - RPM, Torque, Temperature, Pressure, Vibration 관계 및 상관 분석
   - Prophet 기반 단변량 / 다변량 시계열 예측
   - 진동 데이터 기반 이상치 탐지 및 이벤트 구간 시각화
 
-다이나모미터에서 수집된 다중 센서 데이터를 전처리하고 센서 간 관계를 분석한 뒤, Prophet 기반 시계열 예측과 진동 데이터 이상치 탐지를 수행했습니다.
+다이나모미터 센서 데이터를 전처리하고 센서 간 관계를 분석한 뒤, 시계열 예측과 이상치 탐지를 수행했습니다.
 
 - [Project Repository](https://github.com/hjus36/dynamometer-prophet)
 
@@ -91,19 +88,15 @@ AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분�
 
 - **분야** : Embedded System / Mechanical Design
 - **MCU** : STM32H743VIT6
-- **기술** : C, STM32 HAL, STM32CubeMX, GPIO, Timer/PWM
-- **하드웨어** : IR Sensor, MG995 Servo Motor
-- **설계** : 3D CAD Modeling, Gear & Rack Mechanism, 3D Printing
+- **기술** : C, STM32 HAL, GPIO, Timer/PWM
+- **구성** : IR Sensor, MG995 Servo Motor, 3D-Printed Gear & Rack Mechanism
 - **주요 구현**
-  - IR 센서를 이용한 손 감지
-  - TIM3 PWM 기반 MG995 Servo Motor 제어
+  - IR 센서를 이용한 손 감지 및 TIM3 PWM 기반 Servo Motor 제어
   - 1회 자동 분사·복귀 및 반복 분사 방지 로직 구현
   - 기어·랙 기반 기구부 3D CAD 설계 및 3D 프린팅
   - 하드웨어 조립 후 실제 동작 검증
 
-IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성하여 서보모터와 기어·랙 구조를 구동하고, 세정제를 자동으로 누른 뒤 원위치로 복귀하도록 구현했습니다.
-
-펌웨어뿐 아니라 실제 세정제 용기에 장착할 수 있는 기구부를 직접 설계하고 3D 프린팅하여 임베디드 제어와 기구 설계를 결합한 시스템을 제작했습니다.
+STM32 펌웨어 제어와 직접 설계한 기구부를 결합하여 실제 동작 가능한 자동 손세정제 시스템을 제작했습니다.
 
 - [Project Repository](https://github.com/hjus36/stm32-auto-hand-sanitizer)
 
@@ -121,14 +114,11 @@ IR 센서로 사용자의 손을 감지하면 STM32에서 PWM 신호를 생성�
 - **주요 수행**
   - 데이터시트 기반 Schematic 및 Symbol / Footprint 구성
   - ATmega128 TQFP64, STM32H743 LQFP100 등 주요 Footprint 제작
-  - Top / Bottom Layer를 활용한 2-layer PCB Layout 및 Routing
+  - Top / Bottom Layer 기반 2-layer PCB Layout 및 Routing
   - 전원선 폭 구분, GND Polygon / GND Via를 활용한 전원·접지 설계
-  - 실제 부품 규격 및 기구 체결을 고려한 Footprint / Mounting Hole 수정
   - DRC 검증 및 3D PCB Model 기반 기구물 적용 검토
 
-ATmega128과 STM32H743 기반 보드를 대상으로 회로도 작성부터 부품 라이브러리 제작, 배치·배선, GND Polygon, DRC 검증, 3D 검토까지 PCB 설계 전 과정을 수행했습니다.
-
-특히 STM32H743 보드는 설계 과정에서 SWD 및 전원 연결을 보완하고, Bottom Layer 활용, 실제 부품 규격 반영, 2.7 mm 고정 홀 및 GND Via 추가 등을 통해 반복적으로 설계를 개선했습니다.
+두 MCU 기반 보드를 대상으로 회로도 작성부터 부품 라이브러리 제작, 배치·배선, 설계 검증 및 3D 검토까지 PCB 설계 전 과정을 수행했습니다.
 
 - [Project Repository](https://github.com/hjus36/mcu-pcb-design)
 
