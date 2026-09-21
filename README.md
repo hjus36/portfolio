@@ -23,7 +23,7 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 - **Hardware Design** : Schematic Design, PCB Layout & Routing, ERC/DRC Verification
 
 ### Backend
-- **Language** : Java 17
+- **Language** : Java
 - **Framework** : Spring Boot 3, Spring Data JPA, Spring Security
 - **Database** : MySQL
 - **Development** : REST API, JWT Authentication, Gradle
@@ -44,8 +44,8 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
 
 > **멋쟁이사자처럼 대학 13기 중앙 해커톤 팀 프로젝트**
 
-- **역할** : Backend Developer
-- **기술** : Java 17, Spring Boot 3, Spring Data JPA, Spring Security, MySQL
+- **역할** : Backend
+- **기술** : Java, Spring Boot 3, Spring Data JPA, Spring Security, MySQL
 - **주요 경험**
   - Spring Boot 기반 REST API 설계 및 구현
   - 사용자 / 마이페이지 기능 개발
@@ -53,11 +53,13 @@ STM32 기반 임베디드 시스템과 PCB 설계를 중심으로, Spring Boot �
   - GPT 기반 분리배출 퀴즈 생성 및 제출 기능 구현
   - 문의 및 비밀번호 재설정 메일 기능 구현
   - 외부 AI API 연동
+  - 영수증 OCR 인식 기능 구현
 
 AI 이미지 인식과 검색 기능을 활용하여 사용자가 올바른 분리배출 방법을 확인할 수 있도록 지원하는 서비스입니다.
 
 - [Back-end Repository](https://github.com/LIkeLion-Infinite-Loop/backend)
 - [Front-end Repository](https://github.com/LIkeLion-Infinite-Loop/frontend)
+- [시현 영상](https://www.youtube.com/shorts/zPq4j5eChCY)
 
 <br />
 
