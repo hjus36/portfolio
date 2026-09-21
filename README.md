@@ -38,9 +38,11 @@ STM32 기반 펌웨어 제어와 PCB 설계, 3D 기구 설계를 중심으로 �
 - **Experience** : Time-series Forecasting, Anomaly Detection, Image Processing
 
 ### Tools
-- **Embedded** : STM32CubeMX, STM32CubeIDE
+- **Embedded** : STM32CubeMX, STM32CubeIDE, STM32CubeProgrammer, Microchip Studio
+- **Simulation** : Proteus
 - **PCB / EDA** : Altium Designer
 - **3D CAD** : SOLIDWORKS
+- **IDE** : Visual Studio, PyCharm
 - **Version Control** : Git, GitHub
 
 <br />
