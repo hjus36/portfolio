@@ -140,17 +140,18 @@ STM32 펌웨어 제어와 직접 설계한 기구부를 결합하여 실제 동�
 
 > **창의적 종합설계 경진대회 (CDP, Capstone Design Project)**
 
-- **분야** : Robotics / Embedded System / Edge Computing
+- **분야** : Robotics / Embedded System / Edge AI / Computer Vision
 - **역할** : Embedded, Hardware Control, 3D Printing, Edge Computing
+- **시스템 구성** : SO-101 6-DoF Robot Arm, RGB Camera, ToF Sensor, 60 GHz FMCW Radar, Arduino, Jetson
 - **주요 개발 내용**
-  - 얼굴 방향에 따라 위치를 조절하는 스마트폰 거치 로봇팔
-  - 비접촉 비전 기반 수면 상태 분석
-  - 단계적 물리 자극을 이용한 저소음 기상 기능
-  - 수면 상태 기반 조명 제어 및 주변 물품 전달 기능
-  - Jetson Orin Nano Super 기반 엣지컴퓨팅 환경 구성
-  - 그리퍼 재설계 및 로봇팔 구동계 업그레이드 진행
+  - **수면 전** : Vision AI 기반 얼굴·시선 추적, 스마트폰 자동 거치·충전 및 물품 전달
+  - **수면 중** : 60 GHz FMCW Radar 기반 호흡·심박·자세 추적과 비접촉 수면 모니터링
+  - **수면 후** : ToF 거리 피드백과 로봇팔 접촉을 활용한 무소음 타겟 기상 및 정보 브리핑
+  - YOLO / MediaPipe 기반 멀티모달 타겟 검출 및 Visual Servoing
+  - 50 Hz 선형 보간 궤적 생성, ToF Depth Feedback, 부하전류 기반 파지 검출 및 예외 발생 시 Home Position Rollback
+  - SO-101 End-effector 재설계 및 구동계 개선, Arduino-메인 제어기 간 Serial 통신
 
-침대 옆 환경에서 사용자의 수면 상태와 위치를 인식하고, 로봇팔을 이용해 스마트폰 거치·기상 보조·주변 물품 전달 등의 상호작용 기능을 제공하는 **Bedside SleepTech 시스템**을 개발하고 있습니다.
+공동 생활 공간에서 발생하는 수면 간섭을 줄이기 위해 **취침 전 편의 기능 → 비접촉 수면 모니터링 → 무소음 기상**을 하나의 로봇 시스템으로 연결하는 Bedside SleepTech 플랫폼을 개발하고 있습니다.
 
 - [Project Repository](https://github.com/hjus36/cdp)
 
