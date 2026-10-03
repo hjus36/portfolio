@@ -64,8 +64,7 @@ STM32 기반 펌웨어 제어와 PCB 설계, 3D 기구 설계를 중심으로 �
 
 AI 이미지 인식과 검색 기능을 활용해 사용자가 올바른 분리배출 방법을 확인할 수 있도록 지원하는 서비스입니다.
 
-- [Back-end Repository](https://github.com/LIkeLion-Infinite-Loop/backend)
-- [Front-end Repository](https://github.com/LIkeLion-Infinite-Loop/frontend)
+- [Team GitHub Organization](https://github.com/LIkeLion-Infinite-Loop)
 - [시연 영상](https://www.youtube.com/shorts/zPq4j5eChCY)
 
 <br />
